@@ -3,11 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use OwenIt\Auditing\Contracts\Auditable;
 
-class SistemasModel extends Model implements Auditable
+class SistemasModel extends Model
 {
-    use \OwenIt\Auditing\Auditable;
+  
 
     protected $table = 'sistemas';
     protected $primaryKey = 'id';
@@ -20,7 +19,6 @@ class SistemasModel extends Model implements Auditable
         'descricao' => 'string',
         'modulo' => 'string',
         'menu' => 'string',
-        'tipo' => 'string',
         'token' => 'string',
     ];
 
@@ -29,7 +27,6 @@ class SistemasModel extends Model implements Auditable
         'descricao',
         'modulo',
         'menu',
-        'tipo',
         'token',
     ];
 
