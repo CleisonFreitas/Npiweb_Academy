@@ -4,6 +4,7 @@ namespace Database\Seeders;
 use App\Models\Admin;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class AdminSeeder extends Seeder
 {
@@ -17,7 +18,7 @@ class AdminSeeder extends Seeder
         Admin::create([
             'name'      => 'Administrador',
             'email'     => 'admin@npitecnologia.com.br',
-            'password'  => '$2y$10$XeVsClo4X6WD0ATBmCk1U.vvJc33Ql4ZsenRt.1VQEbt9a/cJfbZS',
+            'password'  => Hash::make('secret@2025'),
             'status'    => 'Ativo',
             'profile'   => 'undraw_profile_2.svg',
         ]);

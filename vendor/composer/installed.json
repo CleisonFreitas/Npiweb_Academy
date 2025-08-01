@@ -1992,6 +1992,7 @@
                     "type": "patreon"
                 }
             ],
+            "abandoned": true,
             "install-path": "../laravelista/lumen-vendor-publish"
         },
         {
@@ -5670,6 +5671,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "install-path": "../sebastian/resource-operations"
         },
         {
