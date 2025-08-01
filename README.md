@@ -45,6 +45,7 @@ docker exec -it npi_app bash
 ```
 Inside the container, run:
 ```
+npm install
 composer install
 php artisan key:generate
 php artisan migrate
