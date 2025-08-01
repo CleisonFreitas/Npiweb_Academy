@@ -12,6 +12,7 @@ Before running the application, ensure the following are installed on your syste
 
 ## 🚀 Project Preview
 Admin:
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 
